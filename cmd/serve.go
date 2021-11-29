@@ -13,6 +13,7 @@ import (
 	// "github.com/labstack/echo/v4"
 	// "github.com/labstack/echo/v4/middleware"
 	// "github.com/labstack/gommon/log"
+	"github.com/labstack/echo/v4"
 	"github.com/spf13/cobra"
 	// "golang.org/x/net/http2"
 	// "gorm.io/gorm"
@@ -23,21 +24,37 @@ var serveCmd = &cobra.Command{
 	Short: "run server",
 	RunE: func(cmd *cobra.Command, args []string) error {
 
-		log.Print("starting server...")
-		http.HandleFunc("/", handler)
+		// log.Print("starting server...")
+		// http.HandleFunc("/", handler)
 
-		// Determine port for HTTP service.
+		// // Determine port for HTTP service.
+		// port := os.Getenv("PORT")
+		// if port == "" {
+		// 	port = "8080"
+		// 	log.Printf("defaulting to port %s", port)
+		// }
+
+		// // Start HTTP server.
+		// log.Printf("listening on port %s", port)
+		// if err := http.ListenAndServe(":"+port, nil); err != nil {
+		// 	log.Fatal(err)
+		// }
+		// return nil
+
+		// Echo instance
+		e := echo.New()
+
 		port := os.Getenv("PORT")
 		if port == "" {
 			port = "8080"
-			log.Printf("defaulting to port %s", port)
 		}
 
-		// Start HTTP server.
-		log.Printf("listening on port %s", port)
-		if err := http.ListenAndServe(":"+port, nil); err != nil {
+		e.GET("/", handler)
+
+		if err := e.Start(fmt.Sprintf(":%s", port)); err != http.ErrServerClosed {
 			log.Fatal(err)
 		}
+
 		return nil
 	},
 }
@@ -59,10 +76,20 @@ func init() {
 // 	return &database, nil
 // }
 
-func handler(w http.ResponseWriter, r *http.Request) {
+func handler ( e echo.Context) error {
 	name := os.Getenv("NAME")
 	if name == "" {
 		name = "World Serve"
 	}
-	fmt.Fprintf(w, "Hello %s!\n", name)
+	fmt.Fprintf(e.Response().Writer, "Hello %s!\n", name)
+
+	return nil
 }
+
+// func handler(w http.ResponseWriter, r *http.Request) {
+// 	name := os.Getenv("NAME")
+// 	if name == "" {
+// 		name = "World Serve"
+// 	}
+// 	fmt.Fprintf(w, "Hello %s!\n", name)
+// }
