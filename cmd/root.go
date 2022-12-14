@@ -8,12 +8,16 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:     "jinleejun-backend",
-	Short:   "jinleejun",
+	Use:     "try-cloud-run",
+	Short:   "try-cloud-run",
 	Example: "go run main.go",
 	Run: func(cmd *cobra.Command, args []string) {
 		cmd.Usage()
 	},
+}
+
+func init() {
+	rootCmd.AddCommand(serveCmd)
 }
 
 func Execute() {
