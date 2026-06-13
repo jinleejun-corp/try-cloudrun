@@ -9,8 +9,8 @@ only on songs the channel is legally cleared to translate.
 - We publish **covers**: our own re-created instrumental + a sung English vocal.
 - The English lyric is a **singable adaptation** (fits the melody), not a
   literal translation.
-- The voice is a **faithful generic cover**, never a clone of the original
-  artist.
+- The voice is a **signature human singer** — the channel's own recurring
+  vocalist, a faithful cover, never a clone of the original artist.
 - We only translate **clearable songs** — public domain, Creative Commons, or
   artists/publishers who personally grant the adaptation right.
 - **Launch: Thai songs.** Fast-follow: Japanese Vocaloid.
@@ -25,6 +25,8 @@ only on songs the channel is legally cleared to translate.
   - [0002](./docs/adr/0002-generic-cover-voice-not-artist-clone.md) — generic
     cover voice, not an artist clone
   - [0003](./docs/adr/0003-launch-in-thai.md) — launch in Thai
+  - [0004](./docs/adr/0004-signature-human-singer.md) — signature human singer,
+    not synthetic voice (at launch)
 
 ## Status
 

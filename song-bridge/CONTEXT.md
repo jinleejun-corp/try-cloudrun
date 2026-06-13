@@ -29,9 +29,16 @@ secondary aid (e.g. a pinned comment). Never sung.
 _Avoid_: Translation, subtitle
 
 **Cover Voice**:
-The sung English vocal: a generic or licensed voice that delivers a faithful
-performance. Deliberately _not_ an identity-clone of the Source Song's artist.
+The sung English vocal on a Cover, performed by the channel's Signature Singer.
+A faithful performance, deliberately _not_ an identity-clone of the Source Song's
+artist.
 _Avoid_: AI voice, clone, soundalike
+
+**Signature Singer**:
+The channel's own recurring human vocalist — one person or a small fixed roster —
+who performs the Cover Voice across every video. The channel's recognizable
+identity _is_ this voice, rather than a match to each Source Song's artist.
+_Avoid_: Host, talent, narrator
 
 **Adaptation Right**:
 The rights-holder's control over translating or altering a song's lyrics. A
