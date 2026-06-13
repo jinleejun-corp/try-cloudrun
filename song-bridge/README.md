@@ -13,7 +13,16 @@ only on songs the channel is legally cleared to translate.
   vocalist, a faithful cover, never a clone of the original artist.
 - We only translate **clearable songs** — public domain, Creative Commons, or
   artists/publishers who personally grant the adaptation right.
+- Songs come from **revenue-share partnerships** with indie artists (we split
+  revenue + credit them; they grant the adaptation right + stems).
 - **Launch: Thai songs.** Fast-follow: Japanese Vocaloid.
+
+## Launch plan
+
+- **Format:** start with **lyric videos** (cheap, fast, lyrics-forward); upgrade
+  to **signature-singer performance videos** once the format is proven.
+- **Voice:** one **signature human singer** carries the brand from day one.
+- **Catalog:** clearable Thai indie songs via revenue-share partnerships.
 
 ## Docs
 
@@ -32,5 +41,7 @@ only on songs the channel is legally cleared to translate.
 
 ## Status
 
-Early shaping. The copyright model is settled; production pipeline, sourcing,
-and monetization are still open.
+Early shaping. Settled: the copyright model, the voice (signature singer),
+artist sourcing (revenue-share partnerships), and the launch format (lyric
+videos first). Still open: monetization specifics, the per-partnership
+agreement template, and how/where to find the first Partner Artists.
