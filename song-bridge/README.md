@@ -27,6 +27,8 @@ only on songs the channel is legally cleared to translate.
   - [0003](./docs/adr/0003-launch-in-thai.md) — launch in Thai
   - [0004](./docs/adr/0004-signature-human-singer.md) — signature human singer,
     not synthetic voice (at launch)
+  - [0005](./docs/adr/0005-revenue-share-partnership.md) — revenue-share
+    partnership as the standard artist deal
 
 ## Status
 

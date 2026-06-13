@@ -61,3 +61,15 @@ _Avoid_: Licensed song, available song
 The selection rule: only Clearable Songs ship. Famous label hits are excluded
 until their Adaptation Right is bought. Identity over reach.
 _Avoid_: Whitelist, approved list
+
+**Partner Artist**:
+An indie artist who has granted us the Adaptation Right and instrumental stems
+for one of their songs under a Revenue-Share Partnership. The main source of the
+launch catalog.
+_Avoid_: Licensor, rights-holder, client
+
+**Revenue-Share Partnership**:
+The standard deal with a Partner Artist: we split the video's revenue and
+credit/link their original; they grant the Adaptation Right and stems.
+Incentive-aligned and self-marketing (the artist re-shares the video).
+_Avoid_: Licence, contract, deal
