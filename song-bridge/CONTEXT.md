@@ -73,3 +73,9 @@ The standard deal with a Partner Artist: we split the video's revenue and
 credit/link their original; they grant the Adaptation Right and stems.
 Incentive-aligned and self-marketing (the artist re-shares the video).
 _Avoid_: Licence, contract, deal
+
+**Anchor Partner**:
+One of the 3–5 hand-picked flagship Partner Artists signed at launch. Their
+taste defines the channel's identity, and they serve as social proof to recruit
+the next wave of Partner Artists.
+_Avoid_: Flagship, headliner, VIP

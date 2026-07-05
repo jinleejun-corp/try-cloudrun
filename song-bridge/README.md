@@ -38,10 +38,12 @@ only on songs the channel is legally cleared to translate.
     not synthetic voice (at launch)
   - [0005](./docs/adr/0005-revenue-share-partnership.md) — revenue-share
     partnership as the standard artist deal
+  - [0006](./docs/adr/0006-curated-flagship-launch.md) — curated flagship
+    launch (anchor partners), not broad outreach
 
 ## Status
 
 Early shaping. Settled: the copyright model, the voice (signature singer),
-artist sourcing (revenue-share partnerships), and the launch format (lyric
-videos first). Still open: monetization specifics, the per-partnership
-agreement template, and how/where to find the first Partner Artists.
+artist sourcing (revenue-share partnerships), the launch format (lyric videos
+first), and the seeding strategy (curated anchor partners). Still open:
+monetization specifics and the per-partnership agreement template.
